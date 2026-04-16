@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #181411;
+  background: #f5f1ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #f5f1ea; color: #181411; }
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; }
+img { display: block; max-width: 100%; }
+
+.page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(180, 145, 102, 0.18), transparent 24%),
+    linear-gradient(180deg, #f7f3ee 0%, #f2ede6 100%);
+}
+
+.shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 24px 0;
+}
+
+.wordmark { display: flex; flex-direction: column; gap: 3px; }
+.wordmark-kicker { font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(24,20,17,0.48); }
+.wordmark-name { font-size: 22px; font-weight: 600; letter-spacing: -0.04em; }
+.top-pill {
+  border: 1px solid rgba(24,20,17,0.08); border-radius: 999px; padding: 10px 14px;
+  background: rgba(255,255,255,0.66); font-size: 14px; color: rgba(24,20,17,0.68);
+}
+
+.hero { padding: 12px 0 36px; display: grid; grid-template-columns: 1.03fr 0.97fr; gap: 54px; align-items: end; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px; padding: 9px 14px; border-radius: 999px;
+  border: 1px solid rgba(131, 98, 61, 0.18); background: rgba(131, 98, 61, 0.08);
+  text-transform: uppercase; letter-spacing: 0.22em; font-size: 11px; font-weight: 700; color: #7d6140;
+}
+.dot { width: 7px; height: 7px; border-radius: 999px; background: #b89367; }
+
+h1 {
+  margin: 22px 0 0; font-size: clamp(3.4rem, 8vw, 7.4rem); line-height: 0.93;
+  letter-spacing: -0.065em; font-weight: 650; max-width: 8.5ch;
+}
+.hero-copy {
+  margin-top: 24px; max-width: 620px; font-size: 18px; line-height: 1.9; color: rgba(24,20,17,0.64);
+}
+.hero-actions { display: flex; align-items: center; gap: 18px; margin-top: 34px; flex-wrap: wrap; }
+.primary-btn {
+  height: 56px; padding: 0 24px; border-radius: 999px; border: 0; cursor: pointer;
+  background: #1e1915; color: white; font-weight: 600; letter-spacing: -0.02em;
+  box-shadow: 0 16px 40px rgba(28,22,17,0.16);
+}
+.secondary-copy { font-size: 14px; color: rgba(24,20,17,0.5); }
+
+.hero-card-wrap {
+  border-radius: 34px; padding: 12px; background: rgba(255,255,255,0.72); border: 1px solid rgba(255,255,255,0.75);
+  box-shadow: 0 30px 80px rgba(33,25,18,0.09); backdrop-filter: blur(12px);
+}
+.hero-card {
+  position: relative; overflow: hidden; border-radius: 26px; min-height: 690px; background: #221d18; color: white;
+}
+.hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.54; }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,11,8,0.1) 0%, rgba(16,12,9,0.55) 38%, rgba(19,14,11,0.92) 100%); }
+.hero-panel {
+  position: absolute; left: 28px; right: 28px; bottom: 28px; z-index: 2; border-radius: 22px;
+  background: rgba(18,14,11,0.72); border: 1px solid rgba(255,255,255,0.09); padding: 22px;
+  backdrop-filter: blur(10px);
+}
+.hero-panel-top { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.hero-panel h2 { margin: 10px 0 0; font-size: 32px; line-height: 1.02; letter-spacing: -0.04em; }
+.panel-badge { border: 1px solid rgba(255,255,255,0.1); border-radius: 999px; padding: 8px 12px; font-size: 12px; color: rgba(255,255,255,0.7); }
+.panel-copy { margin: 14px 0 0; color: rgba(255,255,255,0.74); line-height: 1.8; font-size: 14px; }
+.detail-list { margin: 20px 0 0; padding: 0; list-style: none; display: grid; gap: 14px; }
+.detail-list li { display: flex; gap: 12px; align-items: flex-start; color: rgba(255,255,255,0.8); font-size: 14px; line-height: 1.7; }
+.detail-list li::before { content: ""; width: 9px; height: 9px; border-radius: 999px; background: #c8a274; flex: 0 0 auto; margin-top: 8px; }
+
+.section { padding: 56px 0; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.card {
+  background: rgba(255,255,255,0.74); border: 1px solid rgba(24,20,17,0.06); border-radius: 28px; padding: 28px;
+  box-shadow: 0 16px 40px rgba(23,18,13,0.045);
+}
+.card-kicker { font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: #8a6a46; font-weight: 700; }
+.card h3 { margin: 16px 0 0; font-size: 28px; line-height: 1.08; letter-spacing: -0.04em; }
+.card p { margin: 16px 0 0; font-size: 15px; line-height: 1.9; color: rgba(24,20,17,0.58); }
+
+.split {
+  display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 42px; align-items: center;
+  padding: 64px 0; border-top: 1px solid rgba(24,20,17,0.06); border-bottom: 1px solid rgba(24,20,17,0.06);
+}
+.section-title { font-size: clamp(2.5rem, 4vw, 4.5rem); line-height: 0.98; letter-spacing: -0.055em; margin: 12px 0 0; }
+.body-copy { font-size: 17px; line-height: 1.95; color: rgba(24,20,17,0.62); }
+.location-pill {
+  display: inline-flex; align-items: center; gap: 10px; margin-top: 14px; padding: 12px 16px; border-radius: 999px;
+  border: 1px solid rgba(24,20,17,0.08); background: white; color: rgba(24,20,17,0.64); font-size: 14px;
+}
+
+.gallery { padding: 60px 0 24px; }
+.gallery-grid { display: grid; grid-template-columns: 1.2fr 0.8fr 0.8fr; gap: 18px; }
+.gallery-grid img { width: 100%; height: 100%; object-fit: cover; border-radius: 24px; min-height: 260px; }
+
+.cta {
+  text-align: center; padding: 84px 0 96px;
+}
+.cta p { max-width: 760px; margin: 18px auto 0; font-size: 17px; line-height: 1.9; color: rgba(24,20,17,0.58); }
+.footer { padding: 0 0 36px; text-align: center; font-size: 13px; color: rgba(24,20,17,0.44); }
+
+@media (max-width: 980px) {
+  .hero, .split, .grid-3, .gallery-grid { grid-template-columns: 1fr; }
+  .hero-card { min-height: 560px; }
+  .top-pill { display: none; }
+}
+
+@media (max-width: 640px) {
+  .shell { width: min(100% - 28px, 1180px); }
+  .topbar { padding: 18px 0; }
+  h1 { max-width: none; }
+  .hero-copy, .body-copy, .cta p { font-size: 16px; line-height: 1.8; }
+  .card, .hero-panel { padding: 20px; }
+  .hero-card { min-height: 500px; }
+}
