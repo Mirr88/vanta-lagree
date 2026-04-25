@@ -70,12 +70,13 @@ export default function App() {
             href="https://lagreenearme.com"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View Vanta Lagree on Lagree Near Me"
+            aria-label="View Lagree Near Me"
           >
-            <img
-              src="/lagree-near-me-badge.svg"
-              alt="Verified on Lagree Near Me"
-            />
+            <span className="lnm-check">✓</span>
+            <span className="lnm-copy">
+              <small>Verified on</small>
+              <strong>Lagree Near Me</strong>
+            </span>
           </a>
           <span className="mariana-logo" aria-label="Powered by Mariana Tek">
             <img src="/mariana-tek-logo-cropped.png" alt="Powered by Mariana Tek" />

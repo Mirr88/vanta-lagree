@@ -192,27 +192,51 @@ h1 {
   width: 260px;
   height: 60px;
   max-width: 100%;
-  border: 0;
-  background: transparent;
   border-radius: 10px;
-  padding: 0;
+  background: #fff;
+  border: 1px solid #e6e1d8;
+  box-shadow: 0 12px 32px rgba(23,21,20,.08);
   overflow: hidden;
 }
-.lnm-badge img,
+.lnm-badge {
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0 18px;
+  border-left: 5px solid #14a669;
+}
+.lnm-check {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(20,166,105,.10);
+  color: #14a669;
+  font-weight: 950;
+  font-size: 17px;
+  flex: 0 0 auto;
+}
+.lnm-copy { display: grid; gap: 2px; line-height: 1; }
+.lnm-copy small {
+  font-size: 9px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #6d746e;
+  font-weight: 850;
+}
+.lnm-copy strong {
+  font-size: 17px;
+  letter-spacing: -.03em;
+  color: #178a5a;
+  font-weight: 950;
+}
 .mariana-logo img {
   display: block;
-  width: 260px;
-  height: 60px;
-  border: 0;
-  object-fit: contain;
-}
-.mariana-logo {
-  background: #fff;
-  border: 1px solid #E6E1D8;
-}
-.mariana-logo img {
   width: 238px;
   height: 48px;
+  border: 0;
+  object-fit: contain;
 }
 .lnm-badge:hover { transform: translateY(-1px); }
 
