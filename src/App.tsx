@@ -78,8 +78,12 @@ export default function App() {
               <strong>Lagree Near Me</strong>
             </span>
           </a>
-          <span className="mariana-logo" aria-label="Powered by Mariana Tek">
-            <img src="/mariana-tek-logo-cropped.png" alt="Powered by Mariana Tek" />
+          <span className="mariana-badge" aria-label="Powered by Mariana Tek">
+            <span className="xplor-mark">✦</span>
+            <span className="mariana-copy">
+              <small>Powered by</small>
+              <strong><em>Xplor</em> Mariana Tek</strong>
+            </span>
           </span>
         </div>
       </footer>
