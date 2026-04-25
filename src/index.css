@@ -198,12 +198,23 @@ h1 {
   border: 0;
   object-fit: contain;
 }
-.mariana-badge {
+.mariana-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  max-width: 100%;
   border: 1px solid rgba(23,21,20,.12);
-  background: rgba(255,255,255,.44);
-  border-radius: 999px;
-  padding: 10px 13px;
-  color: rgba(23,21,20,.68);
+  background: rgba(255,255,255,.72);
+  border-radius: 10px;
+  padding: 8px 12px;
+  box-shadow: 0 12px 32px rgba(23,21,20,.08);
+}
+.mariana-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
 }
 .lnm-badge:hover { transform: translateY(-1px); }
 

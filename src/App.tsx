@@ -77,7 +77,9 @@ export default function App() {
               alt="Vanta Lagree on Lagree Near Me"
             />
           </a>
-          <span className="mariana-badge">Powered by Mariana Tek</span>
+          <span className="mariana-logo" aria-label="Powered by Mariana Tek">
+            <img src="/mariana-tek-logo.png" alt="Powered by Mariana Tek" />
+          </span>
         </div>
       </footer>
     </main>
