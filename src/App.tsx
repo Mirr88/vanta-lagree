@@ -75,8 +75,6 @@ export default function App() {
             <img
               src="https://lagreenearme.com/api/badge/mirs-lagree-mmfxy1ar?style=full"
               alt="Vanta Lagree on Lagree Near Me"
-              width="260"
-              height="94"
             />
           </a>
           <span className="mariana-badge">Powered by Mariana Tek</span>
