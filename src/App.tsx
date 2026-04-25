@@ -64,9 +64,22 @@ export default function App() {
 
       <footer className="footer">
         <span>© 2026 Vanta Lagree · Elmhurst, Illinois</span>
-        <div>
-          <a href="https://lagreenearme.com" target="_blank" rel="noreferrer">Powered by Lagree Near Me</a>
-          <span>Powered by Mariana Tek</span>
+        <div className="footer-badges">
+          <a
+            className="lnm-badge"
+            href="https://lagreenearme.com/oak-brook-il/mirs-lagree-mmfxy1ar"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Vanta Lagree on Lagree Near Me"
+          >
+            <img
+              src="https://lagreenearme.com/api/badge/mirs-lagree-mmfxy1ar?style=full"
+              alt="Vanta Lagree on Lagree Near Me"
+              width="260"
+              height="94"
+            />
+          </a>
+          <span className="mariana-badge">Powered by Mariana Tek</span>
         </div>
       </footer>
     </main>

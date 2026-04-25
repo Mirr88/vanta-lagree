@@ -183,21 +183,28 @@ h1 {
   color: rgba(23,21,20,.55);
   font-size: 13px;
 }
-.footer div { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
-.footer a,
-.footer div span {
+.footer-badges { display: flex; flex-wrap: wrap; gap: 12px; justify-content: flex-end; align-items: center; }
+.lnm-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(23,21,20,.08);
+}
+.lnm-badge img { display: block; width: 260px; height: 94px; border: 0; }
+.mariana-badge {
   border: 1px solid rgba(23,21,20,.12);
   background: rgba(255,255,255,.44);
   border-radius: 999px;
   padding: 10px 13px;
   color: rgba(23,21,20,.68);
 }
-.footer a:hover { color: #171514; border-color: rgba(23,21,20,.24); }
+.lnm-badge:hover { transform: translateY(-1px); }
 
 @media (max-width: 780px) {
   .brief { grid-template-columns: 1fr; gap: 28px; }
   .footer { flex-direction: column; align-items: flex-start; }
-  .footer div { justify-content: flex-start; }
+  .footer-badges { justify-content: flex-start; }
 }
 
 @media (max-width: 560px) {
