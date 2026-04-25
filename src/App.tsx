@@ -1,6 +1,6 @@
 const points = [
   'Opening soon in Elmhurst, Illinois',
-  'Official Lagree-style training on the Megaformer',
+  'Focused Lagree method in a boutique studio setting',
   'Founding list gets first access to preview classes and launch pricing',
 ]
 
@@ -18,10 +18,10 @@ export default function App() {
 
       <section id="top" className="hero">
         <p className="kicker">Elmhurst, Illinois · Coming soon</p>
-        <h1>Lagree is coming to Elmhurst.</h1>
+        <h1>Elmhurst, meet Lagree.</h1>
         <p className="lede">
-          Vanta Lagree is a boutique studio in development for Elmhurst — focused on the slow, controlled,
-          high-intensity Lagree workout people drive across town to find.
+          Vanta Lagree is a boutique Lagree studio coming soon to Elmhurst, Illinois — designed for slow,
+          controlled strength training in a polished local setting.
         </p>
 
         <div className="actions">
@@ -37,7 +37,7 @@ export default function App() {
       <section className="brief" aria-label="Studio details">
         <div>
           <p className="kicker">What this is</p>
-          <h2>A clean coming-soon page for a real studio launch.</h2>
+          <h2>A simple opening page for Elmhurst.</h2>
         </div>
         <ul>
           {points.map((point) => <li key={point}>{point}</li>)}
@@ -46,10 +46,10 @@ export default function App() {
 
       <section className="method">
         <p className="kicker">Why Lagree</p>
-        <h2>Low impact. High intensity. Serious results.</h2>
+        <h2>The workout is slow. The shake is real.</h2>
         <p>
-          Lagree is built around controlled resistance, core strength, endurance, balance, and the shake.
-          Vanta will bring that method to Elmhurst in a polished, boutique setting once the studio opens.
+          Lagree combines slow resistance, core work, endurance, and low-impact intensity. Vanta will bring
+          that method to Elmhurst without the big-box fitness feel.
         </p>
       </section>
 
