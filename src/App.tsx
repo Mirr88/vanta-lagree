@@ -73,12 +73,12 @@ export default function App() {
             aria-label="View Vanta Lagree on Lagree Near Me"
           >
             <img
-              src="https://lagreenearme.com/api/badge/vanta-lagree?style=compact"
+              src="/lagree-near-me-badge.svg"
               alt="Verified on Lagree Near Me"
             />
           </a>
           <span className="mariana-logo" aria-label="Powered by Mariana Tek">
-            <img src="/mariana-tek-logo.png" alt="Powered by Mariana Tek" />
+            <img src="/mariana-tek-logo-cropped.png" alt="Powered by Mariana Tek" />
           </span>
         </div>
       </footer>

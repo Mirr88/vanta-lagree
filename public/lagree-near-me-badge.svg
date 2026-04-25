@@ -1,0 +1,7 @@
+<svg width="260" height="60" viewBox="0 0 260 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="259" height="59" rx="10" fill="white" stroke="#E6E1D8"/>
+  <rect x="0" y="0" width="5" height="60" rx="2.5" fill="#14A669"/>
+  <path d="M24 31.5l5.2 5.2L41 24.8" stroke="#14A669" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="56" y="24" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1.8" fill="#6D746E">VERIFIED ON</text>
+  <text x="56" y="43" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900" fill="#178A5A">Lagree Near Me</text>
+</svg>
