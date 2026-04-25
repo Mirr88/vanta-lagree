@@ -67,14 +67,14 @@ export default function App() {
         <div className="footer-badges">
           <a
             className="lnm-badge"
-            href="https://lagreenearme.com/oak-brook-il/mirs-lagree-mmfxy1ar"
+            href="https://lagreenearme.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Vanta Lagree on Lagree Near Me"
           >
             <img
-              src="https://lagreenearme.com/api/badge/mirs-lagree-mmfxy1ar?style=full"
-              alt="Vanta Lagree on Lagree Near Me"
+              src="https://lagreenearme.com/api/badge/vanta-lagree?style=compact"
+              alt="Verified on Lagree Near Me"
             />
           </a>
           <span className="mariana-logo" aria-label="Powered by Mariana Tek">
